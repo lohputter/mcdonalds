@@ -65,9 +65,9 @@ nav a:hover {
     100% {left: 45%}
 }
 main > div:not(.employee, #employees) {
-    margin: 5%;
+    margin: 2.5% 20%;
     border-radius: 25px; 
-    padding: 5%;
+    padding: 2.5%;
     background-color: #f0f0f0;
     text-align: left;
 }
@@ -85,6 +85,7 @@ main p {
 }
 div:not(.employee) > img {
     width: 100%;
+    text-align: center;
     height: auto;
     margin: 0;
     border-radius: 25px 25px 0 0;
