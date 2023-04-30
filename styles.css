@@ -149,9 +149,6 @@ ul li {
     justify-content: space-evenly;
     column-gap: 5%;
 }
-.employee img {
-    width: 200px;
-}
 #employees .employee:nth-child(2n-1) img {
     border: 10px outset red;
     box-shadow: 5px 5px 5px #ff4019;
@@ -214,4 +211,7 @@ footer {
     text-align: center;
     width: 100%;
     margin: 25px 0;
+}
+#employees img {
+    width: 200px;
 }
