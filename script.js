@@ -1,5 +1,17 @@
-document.getElementsByTagName("h1")[0].addEventListener("mouseover", function() {
+document.getElementById("title").addEventListener("mouseover", function() {
     setTimeout(function() {
         document.getElementById("animation").className = "perm";
     }, 500); 
 });
+var form = document.getElementById('sheetdb-form');
+form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(form.action, {
+        method : "POST",
+        body: new FormData(document.getElementById("sheetdb-form")),
+    }).then(
+        response => response.json()
+    ).then((html) => {
+        window.alert("Thanks for applying!");
+        });
+     });
