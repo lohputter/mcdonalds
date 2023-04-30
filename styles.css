@@ -160,7 +160,8 @@ ul li {
     text-shadow: 2px 2px 8px #2e2d2d;
 }
 .month img {
-    width: 40%;
+    width: 20%;
+    height: auto;
     border: 10px ridge black;
     box-shadow: 5px 5px 5px #2e2d2d;
 }
@@ -204,4 +205,9 @@ input:focus {
 }
 input[type="text"]::placeholder, textarea::placeholder {
     color: #ffe699;
+}
+footer {
+    text-align: center;
+    width: 100%;
+    margin: 25px 0;
 }
