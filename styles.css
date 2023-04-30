@@ -24,6 +24,7 @@ header {
 #animation.perm {
     text-align: center;
     display: block;
+    text-shadow: 2px 2px 8px #ffdd19;
 }
 #title::first-letter {
     font-size: 4rem;
@@ -36,6 +37,9 @@ header {
     display: block;
     animation: move 0.5s;
     animation-fill-mode: forwards;
+}
+#title:hover {
+    text-shadow: 2px 2px 8px #ffdd19;
 }
 nav {
     display: flex;
